@@ -43,7 +43,7 @@
       //서버에 연결하는 함수 정의
       function connectToServer(){
         var options = {'forceNew' : true};
-        var url = 'http ://' + host + ':' + port;
+        var url = 'http://' + host + ':' + port;
         socket = io.connect(url, options);
 
         socket.on('connect', function(){
